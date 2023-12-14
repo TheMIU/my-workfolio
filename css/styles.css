@@ -1,0 +1,44 @@
+/* Fonts */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* prevent user selecting  */
+body {
+    user-select: none;
+}
+
+/* Custom Button Style */
+.custom-button {
+    outline: none;
+    background-color: #01405a;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:hover {
+    background-color: #005e86;
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+/* custom scrollbar */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #242424;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(172, 172, 172);
+}
