@@ -10,6 +10,7 @@ body {
 
 /* Custom Button Style */
 .custom-button {
+    font-size: small;
     outline: none;
     background-color: #01405a;
     color: white;
@@ -42,3 +43,55 @@ body {
 *::-webkit-scrollbar-thumb {
     background-color: rgb(172, 172, 172);
 }
+
+/* contact styles */
+#contact h6 {
+    position: relative;
+    font-size: small;
+    background-color: #01405a;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#contact p,
+a {
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #40c9ff;
+}
+
+#contact a:hover {
+    color: #baf2fa;
+}
+
+#contact h6>i {
+    color: #40c9ff;
+    position: absolute;
+    left: 12px;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+
+/* animated-icon */
+.animated-icon {
+    display: inline-block;
+    color: #0086c0;
+    animation: moveUpDown 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
