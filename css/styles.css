@@ -103,3 +103,35 @@ a {
 .card h5 {
     margin-bottom: 5%;
 }
+
+/* social-links */
+#contact>div {
+    border: #005e86 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #006a97;
+    color: #0aefff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    background: #0086c0;
+
+}
+
+.social-links a i {
+    color: #a7f9ff;
+}
